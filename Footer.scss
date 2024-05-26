@@ -1,0 +1,7 @@
+@import "../styles/color.scss";
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: $second;
+    color: $first;
+}

@@ -1,0 +1,46 @@
+@import "./color.scss";
+.contact{
+    background-color: $second ;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+
+    >.h1{
+        background-color: $first;
+        width: 70%;
+        padding-top: 20px;
+        border-radius:200px 100px 0 0 ;
+        margin-left: 40px;
+        padding-left: 50px;
+    }
+    .input{
+        border-radius: 0 0 100px 0;
+        background-color: $first;
+        width: 70%;
+        padding-left: 50px;
+        margin-left: 40px;
+       
+        padding-bottom: 20px;
+        color: black;
+        >input{
+            width: 70%;
+        }
+        >button{
+            background-color: $third;
+            color: $first;
+            padding: 5px 20px;
+            
+            max-width: 80px;
+            margin: auto;
+            
+            margin-top: 20px;
+            text-align: center;
+            align-content: center;
+            
+            
+        }
+        
+
+    }
+
+}
